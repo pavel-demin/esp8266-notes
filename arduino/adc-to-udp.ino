@@ -52,8 +52,7 @@ void setup() {
 
 void loop() {
 
-  if(tick)
-  {
+  if (tick) {
     tick = false;
     ++i;
     packet[i] = analogRead(A0);
